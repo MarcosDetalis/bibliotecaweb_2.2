@@ -1,0 +1,81 @@
+ h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 800;
+   
+   
+ }
+ .btnd{
+    margin: 10px;
+    padding: 10px;
+    background-color: #555555;
+    border-radius: 10px;
+    color: beige;
+ }
+.ol_lis {
+	padding: 6px;
+	margin: 1;
+	max-width: 700px;
+	position: relative;
+    color: beige;
+}
+
+.ol_lis::before {
+	content: '';
+	width: 0.5rem;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 8%;
+	background: rgb(12, 12, 12);
+	z-index: -1;
+}
+
+.li_lis {
+	padding: 0.5rem 1.5rem 1rem;
+	border-radius: 1.5rem;
+	background: rgb(42, 43, 49);
+}
+
+ li + li {
+	margin-top: 1rem;
+    
+}
+
+.hijo {
+	
+	margin: 0 auto;
+  }
+
+  .contenedor {
+	 
+	display: flex;
+	justify-content: center;
+  }
+
+
+  .listTitle {
+    overflow: hidden;
+    padding-left: 1.6rem;
+    padding-top: 1.6rem;
+    margin-right: 1.6rem;
+    margin-bottom: 1.2rem;
+  }
+    h1{
+      position: relative;
+      display: inline-block;
+	   
+      color: transparent;
+      font-size: 3.2rem;
+      font-weight: 900;
+    }
+    h1:after {
+      content: "";
+      position: absolute;
+      width: 100vw;
+	  border-top: 1px solid;
+      left: 120%;
+      top: 50%;
+      bottom: 50%;
+    }
+  

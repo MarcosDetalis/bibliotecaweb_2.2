@@ -1,0 +1,39 @@
+{
+  "name": "bibliotecaweb",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@fortawesome/fontawesome-free": "^6.6.0",
+    "@mui/icons-material": "^5.15.15",
+    "@mui/material": "^5.15.15",
+    "@mui/x-date-pickers": "^7.16.0",
+    "bootstrap": "^5.3.3",
+    "dayjs": "^1.11.13",
+    "flowbite-react": "^0.10.1",
+    "formik": "^2.4.3",
+    "mdb-react-ui-kit": "^8.0.0",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.10.4",
+    "react-dom": "^17.0.2",
+    "react-intersection-observer": "^9.5.2",
+    "react-multi-carousel": "^2.8.4",
+    "react-qr-code": "^2.0.13",
+    "react-qrcode-logo": "^2.10.0",
+    "react-router-dom": "^6.15.0",
+    "react-time-picker": "^7.0.0",
+    "react-time-picker-input": "^2.2.4",
+    "styled-components": "^6.0.7",
+    "yup": "^1.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^1.0.7",
+    "vite": "^4.3.2"
+  }
+}
